@@ -1,0 +1,110 @@
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    * { padding: 0%;
+    margin: 0%; }
+
+    @font-face {
+        font-family: "Inter-Bold";
+        src: url"(./assets/fonts/Inter-Bold.ttf)";
+    }
+    @font-face {
+        font-family: "Inter-Regular";
+        src: url"(./assets/fonts/Inter-Regular.ttf)";
+    }
+    @font-face {
+        font-family: "Inter-Medium";
+        src: url"(./assets/fonts/Inter-Medium.ttf)";
+    }
+    @font-face {
+        font-family: "Inter-SemiBold";
+        src: url "(.assets/fonts/Inter-SemiBold.ttf)";
+    }
+body {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+background-color:  hsl(0, 0%, 8%); 
+}
+.center-element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+    background-color:  hsl(0, 0%, 12%);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 400px;
+
+}
+.bloc-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: center;
+    gap: 15px;
+    
+
+}
+img {
+   
+    border-radius: 50%;
+   
+}
+
+.bloc-top h1 {
+    color: hsl(0, 0%, 100%);
+   
+    font-family: "Inter-Bold", sans-serif;
+   
+}
+.bloc-top h3 {
+    color: hsl(75, 94%, 57%);
+    font-size: 18px;
+    margin-top: 5px;
+    font-family: "Inter-SemiBold", sans-serif;
+}
+.bloc-top p {
+    color: hsl(0, 0%, 100%);
+    font-family: "Inter-Regular", sans-serif;
+    
+}
+.bloc-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+    width: 100%;
+    box-sizing: ;
+
+}
+.bloc-bottom a {
+
+    color:  hsl(0, 0%, 100%);
+    font-family: "Inter-SemiBold", sans-serif;
+    width: 100px;
+    background-color:  hsl(0, 0%, 20%);
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+    transition: 0.4s ease;
+
+}
+.bloc-bottom a:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+}
+    font-size: 16px;
+}     
+    .bloc-bottom a:visited {
+        color: hsl(0, 0%, 100%);
+    }
+    .bloc-bottom a:active {
+        color: hsl(0, 0%, 100%);
+    }   
